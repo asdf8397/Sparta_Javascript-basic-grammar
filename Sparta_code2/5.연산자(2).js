@@ -4,4 +4,6 @@
 // 직접 연산(true, false 도출)
 
 
+// 간접 연산(true, false 도출)
+
 // 논리연산자[||(or), &&(and), !(not)으로 true, false를 도출]
