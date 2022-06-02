@@ -42,3 +42,41 @@ for(let Ascending = 1; Ascending < 21; Ascending++) {
         console.log(`1부터 20까지의 숫자 중에서 ${Ascending}는 홀수입니다.`)
     }
 }
+
+console.log("")
+console.log("")
+console.log("")
+console.log("")
+
+
+
+/** 퀴즈
+ * 1부터 20까지 숫자 중 홀수인 경우는 "숫자"은 홀수입니다.
+ * 짝수인 경우의 "숫자.... 는 짝수입니다."를 출력하는 프로그램을
+ * 작성해봅시다.
+ */
+
+/* 출력방법(2가지) */
+
+// 출력 1번째 방법 for문
+
+for (let counter = 1; counter < 21; counter++) {
+    if (counter % 2 === 0) {
+        console.log(`숫자 ${counter}는 짝수입니다.`)
+    } else {
+        (`숫자 ${counter}는 홀수 입니다.`)
+    }
+}
+
+console.log("")
+console.log("")
+
+let counter2 = 1;
+while(counter2 < 21) {
+    if (counter2 % 2 ===0) {
+        console.log(`숫자 ${counter2}는 짝수입니다.`)
+    } else {
+        console.log(`숫자 ${counter2}는 홀수입니다.`)
+    }
+    counter2++
+}

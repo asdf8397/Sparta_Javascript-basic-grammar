@@ -108,3 +108,38 @@ if(distance2 < 2) {
 } else {
     console.log("기차를 타자")
 }
+
+/** 퀴즈
+ * 거리를 의미하는 변수를 선언하고 원하는 숫자 값(단위는 km라고 가정)을 하고
+ * 할당합니다. 2km 미만이면 "걸어가자"를 2km에서 5km미만이면 "택시를 타자"를
+ * 그외에는 "기차를 타자를 출력해주세요."
+ */
+
+
+// 문제해결 방법(1)
+
+let distance1 = 2000;
+let by_taxi = "택시타자";
+const walk = "걸어가자";
+
+
+
+if(distance1 < 2000) {
+    console.log(walk)
+} else if (distance1 < 5000) {
+    console.log(by_taxi)
+} else {
+    console.log("기차를 타자")
+};
+
+// 문제해결 방법(2)
+
+let distance3 = 2000;
+
+if (distance3 < 2000) {
+    console.log("걸어가자")
+} else if (distance3 >= 2000 && distance3 < 5000) {
+    console.log("택시를 타자")
+} else {
+    console.log("기차를 타자")
+};
